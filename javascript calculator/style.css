@@ -1,6 +1,7 @@
 .container{
     text-align: center;
-    margin-right: 6%;
+    padding: auto;
+    margin: auto;
 }
 
 
@@ -20,7 +21,6 @@ h1{
 
 table{
    
-    display: block;
     margin: 3% 3%;
     height: 52vh;
 }
@@ -50,7 +50,6 @@ button:hover{
 .calculator{
     border: 4px solid rgb(87, 58, 87);
     transform: skew(20deg);
-    height: 60vh;
     padding: 23px;
     border-radius: 53px;
     display: inline-block;
@@ -60,29 +59,9 @@ button:hover{
     .calculator{
         border: 4px solid rgb(87, 58, 87);
         transform: skew(0deg);
-        height: 60vh;
         padding: 23px;
         border-radius: 53px;
         display: inline-block;
-    }
-    .container{
-        text-align: center;
-        margin-right: 6%;
-    }
-}
-
-@media only screen and (min-width:609px)and (max-width:1023px){
-    .calculator{
-        border: 4px solid rgb(87, 58, 87);
-        transform: skew(20deg);
-        height: 40vh;
-        padding: 23px;
-        border-radius: 53px;
-        display: inline-block;
-    }
-    .container{
-        text-align: center;
-        margin-right: 6%;
     }
 }
 
