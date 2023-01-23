@@ -21,7 +21,7 @@ h1{
 
 table{
    
-    margin: 3% 3%;
+    margin: 3% 1%;
     height: 52vh;
 }
 
@@ -30,7 +30,7 @@ input{
     padding: 3% 3%;
     border: 4px solid black;
     border-radius: 21px;
-    width: 95%;
+    width: 90%;
 }
 
 button{
@@ -59,7 +59,7 @@ button:hover{
     .calculator{
         border: 4px solid rgb(87, 58, 87);
         transform: skew(0deg);
-        padding: 23px;
+        padding: 23px 5px;
         border-radius: 53px;
         display: inline-block;
     }
